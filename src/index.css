@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .my-grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+
+    grid-gap: 2rem;
+  }
+
+  .scrollbar-hidden::-webkit-scrollbar {
+    display: none;
+  }
+
+  .scrollbar-hidden {
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* IE and Edge */
+  }
+
+  .my-html-data a {
+    color: white;
+    text-decoration: underline;
+    margin: 0 4px;
+  }
+  .my-html-data h1 {
+    @apply text-lg font-semibold;
+  }
+  .my-html-data h2 {
+    @apply text-sm font-semibold;
+  }
+
+  .my-html-data h3 {
+    @apply text-xs font-semibold;
+  }
+
+  .my-html-data li {
+    @apply ml-[20px];
+  }
+
+  .comment-style a {
+    margin: 0 2px;
+    color: white;
+    text-decoration: underline;
+  }
+}
+
+@layer base {
+  *,
+  html,
+  body {
+    /* @apply scrollbar-hidden; */
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+  }
+}
