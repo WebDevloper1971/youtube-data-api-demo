@@ -2,7 +2,7 @@
 
 ![Snapshot](/project-snapshot.png)
 
-![Snapshot](/YoutubeSnapshot2.png)
+![Snapshot](/project-snapshot-2.png)
 
 ## Overview
 
