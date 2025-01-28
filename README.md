@@ -2,6 +2,8 @@
 
 ![Snapshot](/project-snapshot.png)
 
+![Snapshot](/YoutubeSnapshot2.png)
+
 ## Overview
 
 This project is a video streaming platform built with TypeScript, React, React Query, by using Youtube API V3 provided by Google Cloud Console. The platform allows users to stream, browse, and search for videos. The front end is developed with React, using React Query for data fetching and state management, while the back end API provides the necessary video data and handles user authentication.
